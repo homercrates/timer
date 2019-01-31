@@ -1,0 +1,64 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.app .container {
+  height: 100px;
+  width: 185px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#c7c7c7), color-stop(#626262), color-stop(#888888), color-stop(white), color-stop(#464646), to(white));
+  background-image: linear-gradient(#c7c7c7, #626262, #888888, white, #464646, white);
+  border-radius: 10px 10px 10px 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 5px;
+}
+
+.app .container .timer {
+  text-align: center;
+  width: 155px;
+  padding: 15px;
+  background: rgba(215, 114, 255, 0.144);
+  border-radius: 10px 10px 10px 10px;
+  color: white;
+}
+
+.app .container .buttons {
+  width: 55px;
+  text-align: center;
+  padding: 15px;
+  background: #b8e5ff31;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.app .container #start {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.app .container #stop {
+  border-radius: 0px 0px 0px 0px;
+}
+/*# sourceMappingURL=main.css.map */
